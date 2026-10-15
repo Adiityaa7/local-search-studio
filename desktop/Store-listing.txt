@@ -1,0 +1,59 @@
+NAME
+Local Search Studio
+
+PRICE
+Free
+
+PUBLISHER
+Adiityaaa7
+
+SHORT DESCRIPTION
+Find passages in your local code, notes, and documents with private keyword search powered by XERJ.
+
+DESCRIPTION
+Find your next answer in the files you already have.
+
+Local Search Studio gives the open-source XERJ search engine a native Windows interface. Add a folder, let it build a local keyword index, and search the contents of your code, notes, and supported documents in one place.
+
+READ THE PASSAGE, THEN FIND THE FILE
+Browse search results beside an indexed text preview. Filter by folder, copy a useful passage, or reveal its source in File Explorer.
+
+KEEP YOUR WORK LOCAL
+Your files, search queries, and indexes stay on your PC. No app account, cloud AI service, neural-model download, advertising, or publisher analytics is required. The bundled engine uses authenticated connections restricted to your own computer.
+
+LESS REPEATED WORK
+Repeat queries use a small session cache. Refresh reuses unchanged content and updates the index after files are added, edited, or deleted. Search requests are debounced and outdated requests are cancelled to keep typing responsive.
+
+A CLEAR WORKFLOW
+Add a folder with a button, drag and drop, or Ctrl+O. Press Ctrl+K to search. Watch indexing progress, stop a job, and resume later with Refresh. Indexes survive app restarts.
+
+PLEASE NOTE
+This release is for Windows 10 build 19041 or newer and Windows 11, on x64 Intel or AMD processors with AVX2 support. ARM64 and older processors are not supported. Large folders require additional disk space, memory, and indexing time. Refresh is manual; previews are indexed snapshots, and up to 60 matching passages are shown per query. Search is keyword-based, not an AI chat or semantic-search feature.
+
+CREDITS
+Powered by XERJ v1.0.0-rc.95, Copyright 2026 The XERJ Authors, licensed under Apache License 2.0. This product includes software developed by the XERJ project (https://xerj.org). Engine source: https://github.com/xerj-org/xerj. Local Search Studio adds an independent Windows interface and is not affiliated with or endorsed by XERJ. The app includes the upstream LICENSE and NOTICE, third-party notices, .NET notices, and source archives for included MPL components.
+
+FEATURES
+- Search indexed content in selected local folders.
+- Read passage previews and reveal source files in Explorer.
+- Filter results by folder and copy preview text.
+- Reuse unchanged content when refreshing an index.
+- Cancel indexing and resume with Refresh.
+- Use Ctrl+K, Ctrl+O, and drag-and-drop folder selection.
+- Run locally with no app account, advertising, or cloud AI service.
+
+SEARCH TERMS
+local search; file search; document search; code search; offline search; keyword search; XERJ
+
+COPYRIGHT
+Copyright 2026 Adiityaaa7 (desktop additions). XERJ Copyright 2026 The XERJ Authors. Apache License 2.0; third-party components retain their licenses.
+
+CERTIFICATION NOTES
+Native WPF full-trust desktop application. The runFullTrust capability is needed to read user-selected folders, launch the bundled XERJ engine and autoindex child processes, and reveal selected files in Explorer. The engine is restricted to authenticated loopback endpoints. No elevated privileges are requested by the app. No login or test credentials are required.
+
+Test on a Windows x64 AVX2 machine. Create a folder containing a short text or Markdown document with a distinctive word. Add the folder, wait for indexing, and search that word. Select a result, inspect the preview, use Show in folder, edit the document, and use My folders > Refresh. Close and reopen the app; existing indexes remain available. Content is processed locally. The engine is the unmodified upstream v1.0.0-rc.95 release with neural models and cloud reranking disabled.
+
+STORE PRODUCT
+ID: 9NLP1K2WZ8NS
+Reserved URL: https://apps.microsoft.com/detail/9NLP1K2WZ8NS
+The reserved URL is not evidence of a live public listing.

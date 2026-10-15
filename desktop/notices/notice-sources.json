@@ -1,0 +1,317 @@
+[
+  {
+    "package": "asn1-rs-impl",
+    "version": "0.2.0",
+    "file": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/rusticata/asn1-rs/a20e5f7319c896737ad0f2557037817b91ad854f/LICENSE-MIT",
+    "revision": "a20e5f7319c896737ad0f2557037817b91ad854f"
+  },
+  {
+    "package": "asn1-rs-impl",
+    "version": "0.2.0",
+    "file": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/rusticata/asn1-rs/a20e5f7319c896737ad0f2557037817b91ad854f/LICENSE-APACHE",
+    "revision": "a20e5f7319c896737ad0f2557037817b91ad854f"
+  },
+  {
+    "package": "alloc-stdlib",
+    "version": "0.2.4",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/dropbox/rust-alloc-no-stdlib/ae42d22078b98549e987d2f03d12df7b984fde47/LICENSE",
+    "revision": "ae42d22078b98549e987d2f03d12df7b984fde47"
+  },
+  {
+    "package": "base64-simd",
+    "version": "0.8.0",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/Nugine/simd/d74c030d9dc4f3cae02146d1f497ff62726ef09a/LICENSE",
+    "revision": "d74c030d9dc4f3cae02146d1f497ff62726ef09a"
+  },
+  {
+    "package": "candle-nn",
+    "version": "0.9.2",
+    "file": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/huggingface/candle/3b39794c14b1de8ba4c2d10d49354d557a415547/LICENSE-MIT",
+    "revision": "3b39794c14b1de8ba4c2d10d49354d557a415547"
+  },
+  {
+    "package": "candle-nn",
+    "version": "0.9.2",
+    "file": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/huggingface/candle/3b39794c14b1de8ba4c2d10d49354d557a415547/LICENSE-APACHE",
+    "revision": "3b39794c14b1de8ba4c2d10d49354d557a415547"
+  },
+  {
+    "package": "base64urlsafedata",
+    "version": "0.5.5",
+    "file": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/kanidm/webauthn-rs/d2c10d53ca5ef033d37ee6462e936e9eb72ad98c/LICENSE.md",
+    "revision": "d2c10d53ca5ef033d37ee6462e936e9eb72ad98c"
+  },
+  {
+    "package": "candle-transformers",
+    "version": "0.9.2",
+    "file": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/huggingface/candle/3b39794c14b1de8ba4c2d10d49354d557a415547/LICENSE-MIT",
+    "revision": "3b39794c14b1de8ba4c2d10d49354d557a415547"
+  },
+  {
+    "package": "candle-transformers",
+    "version": "0.9.2",
+    "file": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/huggingface/candle/3b39794c14b1de8ba4c2d10d49354d557a415547/LICENSE-APACHE",
+    "revision": "3b39794c14b1de8ba4c2d10d49354d557a415547"
+  },
+  {
+    "package": "defmt-parser",
+    "version": "1.0.0",
+    "file": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-MIT",
+    "revision": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f"
+  },
+  {
+    "package": "number_prefix",
+    "version": "0.4.0",
+    "file": "LICENCE",
+    "url": "https://raw.githubusercontent.com/ogham/rust-number-prefix/eb6ebd215d50df1b199737f0356b988bebaedc84/LICENCE",
+    "revision": "eb6ebd215d50df1b199737f0356b988bebaedc84"
+  },
+  {
+    "package": "defmt-parser",
+    "version": "1.0.0",
+    "file": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/knurling-rs/defmt/4a8cdb44891ed57b8ff5a023b6bec7137c48708f/LICENSE-APACHE",
+    "revision": "4a8cdb44891ed57b8ff5a023b6bec7137c48708f"
+  },
+  {
+    "package": "prost-reflect",
+    "version": "0.14.7",
+    "file": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/andrewhickman/prost-reflect/71c4c98d7565dfc30f76ebc7daaa139a443419e6/LICENSE-MIT",
+    "revision": "71c4c98d7565dfc30f76ebc7daaa139a443419e6"
+  },
+  {
+    "package": "prost-reflect",
+    "version": "0.14.7",
+    "file": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/andrewhickman/prost-reflect/71c4c98d7565dfc30f76ebc7daaa139a443419e6/LICENSE-APACHE",
+    "revision": "71c4c98d7565dfc30f76ebc7daaa139a443419e6"
+  },
+  {
+    "package": "pulp-wasm-simd-flag",
+    "version": "0.1.1",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/sarah-quinones/pulp/5eb07fd7b68edf0a5e19f71737d315f72a510295/LICENSE",
+    "revision": "5eb07fd7b68edf0a5e19f71737d315f72a510295"
+  },
+  {
+    "package": "roaring",
+    "version": "0.10.12",
+    "file": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/RoaringBitmap/roaring-rs/9496afe1e6ad93a8875f901c2579761f7acdc5b0/LICENSE-MIT",
+    "revision": "9496afe1e6ad93a8875f901c2579761f7acdc5b0"
+  },
+  {
+    "package": "tree-sitter-bash",
+    "version": "0.23.3",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-bash/487734f87fd87118028a65a4599352fa99c9cde8/LICENSE",
+    "revision": "487734f87fd87118028a65a4599352fa99c9cde8"
+  },
+  {
+    "package": "tree-sitter-c",
+    "version": "0.23.4",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-c/3efee11f784605d44623d7dadd6cd12a0f73ea92/LICENSE",
+    "revision": "3efee11f784605d44623d7dadd6cd12a0f73ea92"
+  },
+  {
+    "package": "roaring",
+    "version": "0.10.12",
+    "file": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/RoaringBitmap/roaring-rs/9496afe1e6ad93a8875f901c2579761f7acdc5b0/LICENSE-APACHE",
+    "revision": "9496afe1e6ad93a8875f901c2579761f7acdc5b0"
+  },
+  {
+    "package": "taffy",
+    "version": "0.12.2",
+    "file": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/DioxusLabs/taffy/bb351fcc056c93dbb967292acc4242a5d1c46b3c/LICENSE.md",
+    "revision": "bb351fcc056c93dbb967292acc4242a5d1c46b3c"
+  },
+  {
+    "package": "tree-sitter-cpp",
+    "version": "0.23.4",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-cpp/f41e1a044c8a84ea9fa8577fdd2eab92ec96de02/LICENSE",
+    "revision": "f41e1a044c8a84ea9fa8577fdd2eab92ec96de02"
+  },
+  {
+    "package": "tree-sitter-fortran",
+    "version": "0.6.0",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/stadelmanma/tree-sitter-fortran/48593829df8a929bfe58528eedcf405171921005/LICENSE",
+    "revision": "48593829df8a929bfe58528eedcf405171921005"
+  },
+  {
+    "package": "tree-sitter-haskell",
+    "version": "0.23.1",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-haskell/c30d812bc90827f1a54106a25bc9a6307f5cdcec/LICENSE",
+    "revision": "c30d812bc90827f1a54106a25bc9a6307f5cdcec"
+  },
+  {
+    "package": "tree-sitter-go",
+    "version": "0.23.4",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-go/3c3775faa968158a8b4ac190a7fda867fd5fb748/LICENSE",
+    "revision": "3c3775faa968158a8b4ac190a7fda867fd5fb748"
+  },
+  {
+    "package": "tree-sitter-javascript",
+    "version": "0.23.1",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-javascript/3a837b6f3658ca3618f2022f8707e29739c91364/LICENSE",
+    "revision": "3a837b6f3658ca3618f2022f8707e29739c91364"
+  },
+  {
+    "package": "tree-sitter-java",
+    "version": "0.23.5",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-java/94703d5a6bed02b98e438d7cad1136c01a60ba2c/LICENSE",
+    "revision": "94703d5a6bed02b98e438d7cad1136c01a60ba2c"
+  },
+  {
+    "package": "tree-sitter-lua",
+    "version": "0.5.0",
+    "file": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/tree-sitter-grammars/tree-sitter-lua/10fe0054734eec83049514ea2e718b2a56acd0c9/LICENSE.md",
+    "revision": "10fe0054734eec83049514ea2e718b2a56acd0c9"
+  },
+  {
+    "package": "tree-sitter-julia",
+    "version": "0.23.1",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-julia/a8e1262997d5a45520a06cbe1b86c0737d507054/LICENSE",
+    "revision": "a8e1262997d5a45520a06cbe1b86c0737d507054"
+  },
+  {
+    "package": "tree-sitter-kotlin-ng",
+    "version": "1.1.0",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter-grammars/tree-sitter-kotlin/77dd60ea0a9003ce062c9728a513ffe1aaff8c82/LICENSE",
+    "revision": "77dd60ea0a9003ce062c9728a513ffe1aaff8c82"
+  },
+  {
+    "package": "tree-sitter-ruby",
+    "version": "0.23.1",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-ruby/71bd32fb7607035768799732addba884a37a6210/LICENSE",
+    "revision": "71bd32fb7607035768799732addba884a37a6210"
+  },
+  {
+    "package": "tree-sitter-php",
+    "version": "0.23.11",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-php/43aad2b9a98aa8e603ea0cf5bb630728a5591ad8/LICENSE",
+    "revision": "43aad2b9a98aa8e603ea0cf5bb630728a5591ad8"
+  },
+  {
+    "package": "tree-sitter-objc",
+    "version": "3.0.2",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter-grammars/tree-sitter-objc/18802acf31d0b5c1c1d50bdbc9eb0e1636cab9ed/LICENSE",
+    "revision": "18802acf31d0b5c1c1d50bdbc9eb0e1636cab9ed"
+  },
+  {
+    "package": "tree-sitter-python",
+    "version": "0.23.6",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-python/bffb65a8cfe4e46290331dfef0dbf0ef3679de11/LICENSE",
+    "revision": "bffb65a8cfe4e46290331dfef0dbf0ef3679de11"
+  },
+  {
+    "package": "tree-sitter-perl",
+    "version": "1.1.2",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/ganezdragon/tree-sitter-perl/883ab51150f32583e4f6877a6bf16e9f83b8935f/LICENSE",
+    "revision": "883ab51150f32583e4f6877a6bf16e9f83b8935f"
+  },
+  {
+    "package": "vsimd",
+    "version": "0.8.0",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/Nugine/simd/d74c030d9dc4f3cae02146d1f497ff62726ef09a/LICENSE",
+    "revision": "d74c030d9dc4f3cae02146d1f497ff62726ef09a"
+  },
+  {
+    "package": "tree-sitter-rust",
+    "version": "0.23.3",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-rust/3d087c3df25286140393ddecc339208fae107149/LICENSE",
+    "revision": "3d087c3df25286140393ddecc339208fae107149"
+  },
+  {
+    "package": "tree-sitter-typescript",
+    "version": "0.23.2",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter/tree-sitter-typescript/f975a621f4e7f532fe322e13c4f79495e0a7b2e7/LICENSE",
+    "revision": "f975a621f4e7f532fe322e13c4f79495e0a7b2e7"
+  },
+  {
+    "package": "tree-sitter-zig",
+    "version": "1.1.2",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/tree-sitter-grammars/tree-sitter-zig/b670c8df85a1568f498aa5c8cae42f51a90473c0/LICENSE",
+    "revision": "b670c8df85a1568f498aa5c8cae42f51a90473c0"
+  },
+  {
+    "package": "tree-sitter-scheme",
+    "version": "0.24.7",
+    "file": "LICENSE",
+    "url": "https://raw.githubusercontent.com/6cdh/tree-sitter-scheme/44b21834054892d921dad02ebcb6506971da7ce2/LICENSE",
+    "revision": "44b21834054892d921dad02ebcb6506971da7ce2"
+  },
+  {
+    "package": "webauthn-attestation-ca",
+    "version": "0.5.5",
+    "file": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/kanidm/webauthn-rs/d2c10d53ca5ef033d37ee6462e936e9eb72ad98c/LICENSE.md",
+    "revision": "d2c10d53ca5ef033d37ee6462e936e9eb72ad98c"
+  },
+  {
+    "package": "webauthn-rs",
+    "version": "0.5.5",
+    "file": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/kanidm/webauthn-rs/d2c10d53ca5ef033d37ee6462e936e9eb72ad98c/LICENSE.md",
+    "revision": "d2c10d53ca5ef033d37ee6462e936e9eb72ad98c"
+  },
+  {
+    "package": "webauthn-rs-core",
+    "version": "0.5.5",
+    "file": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/kanidm/webauthn-rs/d2c10d53ca5ef033d37ee6462e936e9eb72ad98c/LICENSE.md",
+    "revision": "d2c10d53ca5ef033d37ee6462e936e9eb72ad98c"
+  },
+  {
+    "package": "webauthn-rs-proto",
+    "version": "0.5.5",
+    "file": "LICENSE.md",
+    "url": "https://raw.githubusercontent.com/kanidm/webauthn-rs/d2c10d53ca5ef033d37ee6462e936e9eb72ad98c/LICENSE.md",
+    "revision": "d2c10d53ca5ef033d37ee6462e936e9eb72ad98c"
+  },
+  {
+    "package": "yasna",
+    "version": "0.5.2",
+    "file": "LICENSE-MIT",
+    "url": "https://raw.githubusercontent.com/qnighy/yasna.rs/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985/LICENSE-MIT",
+    "revision": "b7e65f9a4c317494cce2d18ea02b3d6eaaea7985"
+  },
+  {
+    "package": "yasna",
+    "version": "0.5.2",
+    "file": "LICENSE-APACHE",
+    "url": "https://raw.githubusercontent.com/qnighy/yasna.rs/b7e65f9a4c317494cce2d18ea02b3d6eaaea7985/LICENSE-APACHE",
+    "revision": "b7e65f9a4c317494cce2d18ea02b3d6eaaea7985"
+  }
+]

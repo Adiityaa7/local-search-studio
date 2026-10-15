@@ -1,0 +1,35 @@
+Local Search Studio 1.0.0
+Copyright 2026 Adiityaaa7. Desktop additions licensed under Apache License 2.0.
+
+Independent Windows desktop edition powered by XERJ.
+Not affiliated with or endorsed by the XERJ project.
+
+XERJ: Copyright 2026 The XERJ Authors.
+This product includes software developed by the XERJ project (https://xerj.org).
+Upstream source: https://github.com/xerj-org/xerj
+Unmodified engine release: v1.0.0-rc.95
+Source commit: 8b495d34c1183ce3d76579db527c6a804bf2845e
+
+Changes added 15 October 2026, under desktop/:
+Native WPF interface, folder selection and library persistence, authenticated
+loopback engine lifecycle, incremental lexical indexing, search cancellation,
+debouncing, bounded previews, query caching, packaging, and integration tests.
+No XERJ engine source or release binary was modified.
+
+See XERJ-LICENSE.txt and XERJ-NOTICE.txt for the upstream license and notice.
+See THIRD-PARTY-NOTICES.txt for Rust dependencies and the DOTNET-* and
+WINDOWS-DESKTOP-LICENSE.txt files for the bundled .NET runtime.
+
+MPL-2.0 source availability:
+The unmodified source archives for base64urlsafedata 0.5.5, option-ext 0.2.0,
+webauthn-attestation-ca 0.5.5, webauthn-rs 0.5.5, webauthn-rs-core 0.5.5,
+and webauthn-rs-proto 0.5.5 are distributed in notices/sources/.
+The .crate files are gzip-compressed tar archives. Extract with tar -xf.
+Each archive retains its own license. These sources may also be obtained
+by exact package name and version at https://crates.io.
+
+tree-sitter-groovy 0.1.2 declares MIT in its published Cargo.toml but supplies
+no license file in the published crate or referenced upstream commit.
+Its author attribution, declared permission, and full original crate are
+included in additional/tree-sitter-groovy-0.1.2 and sources/ respectively.
+No ownership of third-party components or their trademarks is claimed.

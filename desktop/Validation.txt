@@ -1,0 +1,46 @@
+Local Search Studio 1.0.0 — validation record, 15 October 2026
+
+Build: self-contained Windows x64 / .NET 10.0.12, SDK 10.0.402.
+Engine: official XERJ v1.0.0-rc.95 Windows x64 release, unmodified.
+Upstream archive SHA256:
+23648a3b2e3965b60c4939876a1f3d43f1b9a609b61b3d406e752b8336220385
+
+Integration checks passed against the real bundled engine:
+- Unauthorized HTTP access receives 401.
+- Result path traversal is refused.
+- Folder settings save and reload.
+- Dry run, indexing, and passage search work.
+- Hidden .env fixture is skipped.
+- Repeat query cache makes no additional HTTP request.
+- Unchanged refresh reuses the incremental journal.
+- Changed files replace stale results; deleted files disappear.
+- Indexes and endpoint persist across restart.
+- Incremental refresh works after restart.
+- Cancelled searches stop; shutdown cancels an active index job.
+- No engine or indexer remains after normal shutdown.
+- Killing the desktop test process also terminated its engine via the job object.
+
+Small generated fixture (two Markdown files; Windows development machine):
+Startup 2098 ms; first index 3.827 s; unchanged refresh 0.154 s.
+20 uncached searches: median 2.905 ms, p95 10.651 ms.
+Repeat query cache lookup 0.951 ms and zero new HTTP requests.
+These are fixture observations, not broad performance guarantees or a
+comparison with the upstream engine. Larger datasets and file types vary.
+
+Visual inspection: search results, previews, navigation contrast, and progress
+checked in the running Windows application. Store screenshot uses generated
+sample documents only. Restarted the application using the same test library.
+
+Packaging: Windows SDK MakeAppx created and validated the MSIX successfully.
+No untrusted certificate was installed. The MSIX is unsigned for submission
+to Partner Center; Microsoft signs the package distributed by the Store.
+The unpackaged app was tested. The package also registered successfully with
+Windows using the machine's pre-existing Developer Mode (status: Ok).
+WACK could not run because its Windows administrator prompt was cancelled.
+Microsoft Store certification remains separate from local validation.
+
+Attribution: upstream LICENSE/NOTICE preserved; desktop changes disclosed;
+586 dependency entries covered by collected notices; unmodified MPL source
+archives distributed alongside the app. tree-sitter-groovy 0.1.2 declares MIT
+but has no upstream LICENSE file; its declaration, author attribution, and
+full source crate are retained and this limitation is explicitly documented.

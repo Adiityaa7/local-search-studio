@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+ xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+ xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+ IgnorableNamespaces="uap rescap">
+ <Identity Name="Adiityaaa7.LocalSearchStudio" Publisher="CN=366E7E93-4FEB-47DC-86AA-CAD61A39B49D" Version="1.0.0.0" ProcessorArchitecture="x64"/>
+ <Properties><DisplayName>Local Search Studio</DisplayName><PublisherDisplayName>Adiityaaa7</PublisherDisplayName><Logo>Assets\StoreLogo.png</Logo><Description>Find passages in your local code, notes, and documents.</Description></Properties>
+ <Dependencies><TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0"/></Dependencies>
+ <Resources><Resource Language="en-US"/></Resources>
+ <Applications><Application Id="App" Executable="LocalSearchStudio.exe" EntryPoint="Windows.FullTrustApplication">
+  <uap:VisualElements DisplayName="Local Search Studio" Description="Search your local code, notes, and documents." BackgroundColor="#172337" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png"/>
+ </Application></Applications>
+ <Capabilities><rescap:Capability Name="runFullTrust"/></Capabilities>
+</Package>
