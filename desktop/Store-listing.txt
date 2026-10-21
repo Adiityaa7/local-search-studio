@@ -8,7 +8,7 @@ PUBLISHER
 Adiityaaa7
 
 SHORT DESCRIPTION
-Find passages in your local code, notes, and documents with private keyword search powered by XERJ.
+Remember the words, not the file name. Search inside your local notes, code, and supported documents, preview matching passages, and reveal the source file. Free, local, and no account required.
 
 DESCRIPTION
 Find your next answer in the files you already have.
@@ -43,7 +43,10 @@ FEATURES
 - Run locally with no app account, advertising, or cloud AI service.
 
 SEARCH TERMS
-local search; file search; document search; code search; offline search; keyword search; XERJ
+file content search; document search; search inside files; local search; offline search; text search; FolderHunt
+
+WHAT'S NEW IN VERSION 1.0.1
+Local Search Studio is now FolderHunt: Search Inside Files. This update introduces the new name and matching Windows branding. Your existing folders, indexes, and settings stay in place.
 
 COPYRIGHT
 Copyright 2026 Adiityaaa7 (desktop additions). XERJ Copyright 2026 The XERJ Authors. Apache License 2.0; third-party components retain their licenses.
