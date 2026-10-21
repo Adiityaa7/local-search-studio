@@ -1,4 +1,4 @@
-Local Search Studio 1.0.0
+FolderHunt 1.0.1
 Copyright 2026 Adiityaaa7. Desktop additions licensed under Apache License 2.0.
 
 Independent Windows desktop edition powered by XERJ.
@@ -33,3 +33,5 @@ no license file in the published crate or referenced upstream commit.
 Its author attribution, declared permission, and full original crate are
 included in additional/tree-sitter-groovy-0.1.2 and sources/ respectively.
 No ownership of third-party components or their trademarks is claimed.
+
+21 October 2026: renamed the independent desktop edition from Local Search Studio to FolderHunt. Package identity, data location, search behavior and upstream credits remain unchanged.

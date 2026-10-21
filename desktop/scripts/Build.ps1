@@ -29,9 +29,9 @@ try {
  if($LASTEXITCODE){throw 'Publish failed.'}
  Copy-Item -LiteralPath (Join-Path $desktopRoot 'packaging/AppxManifest.xml') -Destination $staging
  Copy-Item -LiteralPath (Join-Path $desktopRoot 'packaging/Assets') -Destination $staging -Recurse
- & $MakeAppx pack /d $staging /p (Join-Path $OutputDirectory 'LocalSearchStudio-1.0.0.0-x64.msix') /o
+ & $MakeAppx pack /d $staging /p (Join-Path $OutputDirectory 'FolderHunt-1.0.1.0-x64.msix') /o
  if($LASTEXITCODE){throw 'MSIX validation or packing failed.'}
- Compress-Archive -Path (Join-Path $staging '*') -DestinationPath (Join-Path $OutputDirectory 'LocalSearchStudio-1.0.0-win-x64-portable.zip') -Force
+ Compress-Archive -Path (Join-Path $staging '*') -DestinationPath (Join-Path $OutputDirectory 'FolderHunt-1.0.1-win-x64-portable.zip') -Force
  Get-FileHash -Algorithm SHA256 -Path (Join-Path $OutputDirectory '*.msix'),(Join-Path $OutputDirectory '*.zip') | Format-Table
 } finally {Pop-Location}
 

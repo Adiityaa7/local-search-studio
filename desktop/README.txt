@@ -1,4 +1,4 @@
-LOCAL SEARCH STUDIO 1.0.0
+FOLDERHUNT 1.0.1
 
 An independent, free Windows desktop interface for the XERJ search engine.
 This edition performs local keyword search. It does not enable neural models,
@@ -55,7 +55,7 @@ THIRD-PARTY-NOTICES.txt, DOTNET-* and WINDOWS-DESKTOP-LICENSE.txt.
 MPL component source archives are included in notices/sources/.
 Desktop changes were added 15 October 2026 under Apache License 2.0.
 Original engine source: https://github.com/xerj-org/xerj at v1.0.0-rc.95.
-Local Search Studio is not affiliated with or endorsed by XERJ.
+FolderHunt is not affiliated with or endorsed by XERJ.
 
 This release retains the upstream engine's release-candidate version.
 The small-fixture test timings are not a benchmark of all file types or an

@@ -21,7 +21,7 @@ for(const id of [...visited].sort()){
  sections.push('\n'+'='.repeat(80)+'\n'+p.name+' '+p.version+'\nLicense: '+p.license+'\nSource: '+(p.repository??p.source)+'\n'+unique.map(f=>'\n--- '+label(f)+' ---\n'+fs.readFileSync(f,'utf8')).join('\n'));
 }
 const out=path.resolve(import.meta.dirname,'../notices');
-fs.writeFileSync(path.join(out,'THIRD-PARTY-NOTICES.txt'),'Local Search Studio — third-party notices\nXERJ v1.0.0-rc.95; Windows x64 dependency graph, including build dependencies.\nIndividual components retain their original licenses.\n'+sections.join('\n'));
+fs.writeFileSync(path.join(out,'THIRD-PARTY-NOTICES.txt'),'FolderHunt — third-party notices\nXERJ v1.0.0-rc.95; Windows x64 dependency graph, including build dependencies.\nIndividual components retain their original licenses.\n'+sections.join('\n'));
 fs.writeFileSync(path.join(out,'dependency-inventory.json'),JSON.stringify(inventory,null,2));
 fs.writeFileSync(path.join(out,'notice-gaps.json'),JSON.stringify(missing,null,2));
 console.log(JSON.stringify({packages:inventory.length,missing},null,2));

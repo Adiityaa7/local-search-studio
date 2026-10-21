@@ -1,4 +1,4 @@
-// Local Search Studio desktop integration, added 2026-10-15. Apache-2.0.
+// FolderHunt desktop integration, added 2026-10-15. Apache-2.0.
 // XERJ engine remains unmodified; attribution and license are in ../notices.
 using System.Diagnostics;
 using System.IO;
@@ -113,7 +113,7 @@ public sealed class EngineService : IAsyncDisposable
     {
         if (Running) return;
         if(shutdown.IsCancellationRequested) { shutdown.Dispose(); shutdown = new(); }
-        if (!File.Exists(executable)) throw new FileNotFoundException("The bundled XERJ engine is missing. Reinstall Local Search Studio.");
+        if (!File.Exists(executable)) throw new FileNotFoundException("The bundled XERJ engine is missing. Reinstall FolderHunt.");
         if (!System.Runtime.Intrinsics.X86.Avx2.IsSupported) throw new PlatformNotSupportedException("This XERJ build requires a 64-bit Intel or AMD processor with AVX2 support (typically 2013 or newer).");
         Directory.CreateDirectory(root);
         // User-only state, including engine API key; never placed in a URL or command line.
@@ -122,7 +122,7 @@ public sealed class EngineService : IAsyncDisposable
         security.AddAccessRule(new FileSystemAccessRule(WindowsIdentity.GetCurrent().User!, FileSystemRights.FullControl, InheritanceFlags.ContainerInherit | InheritanceFlags.ObjectInherit, PropagationFlags.None, AccessControlType.Allow));
         new DirectoryInfo(root).SetAccessControl(security);
         try { ownership = new FileStream(System.IO.Path.Combine(root, "engine.lock"), FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None); }
-        catch (IOException) { throw new IOException("Local Search Studio is already open. Switch to its existing window."); }
+        catch (IOException) { throw new IOException("FolderHunt is already open. Switch to its existing window."); }
         try
         {
             // XERJ's incremental journal binds to its endpoint. Keep assigned ports
@@ -138,7 +138,7 @@ public sealed class EngineService : IAsyncDisposable
                 selected = ports.Select(p => ((IPEndPoint)p.LocalEndpoint).Port).ToArray();
                 if(saved is null) File.WriteAllText(portFile,JsonSerializer.Serialize(selected));
             }
-            catch(SocketException ex) { throw new IOException("Another program is using this app’s saved local port. Close other copies of Local Search Studio, then retry.",ex); }
+            catch(SocketException ex) { throw new IOException("Another program is using this app’s saved local port. Close other copies of FolderHunt, then retry.",ex); }
             finally { foreach(var listener in ports)listener.Stop(); }
             var data = System.IO.Path.Combine(root, "data").Replace('\\', '/');
             var config = $"[server]\nbind_address = \"127.0.0.1\"\nes_compat_port = {selected[0]}\nrest_port = {selected[1]}\ngrpc_port = {selected[2]}\ndata_dir = {JsonSerializer.Serialize(data)}\n[auth]\nenabled = true\n[tls]\nenabled = false\n[rerank]\nenabled = false\n";

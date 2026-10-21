@@ -1,0 +1,23 @@
+FolderHunt 1.0.1 — rename validation, 21 October 2026
+
+Store title: FolderHunt: Search Inside Files
+Previous name: Local Search Studio
+
+Changes: window and sidebar branding, user-facing messages, About text,
+Windows display names and version, Store copy, privacy-policy name, screenshot,
+and release file names. Existing XERJ and third-party notices are retained.
+
+Validation performed:
+- .NET Release publish succeeded with locked dependencies.
+- Windows SDK MakeAppx package validation succeeded.
+- Started the actual packaged payload, indexed three generated Markdown files,
+  searched for authentication, and visually checked the rendered result screen.
+- Window title is FolderHunt. Sidebar name and tagline fit without clipping.
+- Closed the app normally; no app or engine process remained from this run.
+- Engine SHA256 remains F50BA932ACF3674D718E05CC169C9E08BC98575694FFE7F49B5AB008702AF575.
+- Package identity, application ID, executable, mutex and app-data path are
+  preserved so the rename is delivered as an update to the existing app.
+
+The search/indexing implementation did not change. The earlier integration
+test scope and limitations are recorded in Validation.txt. No new WACK run
+was attempted for this branding update. Store certification is separate.

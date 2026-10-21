@@ -1,4 +1,8 @@
-LOCAL SEARCH STUDIO
+FOLDERHUNT
+
+Store title: FolderHunt: Search Inside Files
+Previously published as Local Search Studio. Version 1.0.1 updates the name
+and branding. Existing installations retain their indexes and settings.
 
 A free, independent Windows desktop interface powered by XERJ.
 Native WPF UI, local keyword search, folder indexing, passage previews,
@@ -31,14 +35,15 @@ the app does not encrypt them. See the privacy policy for data removal.
 MICROSOFT STORE
 Product ID: 9NLP1K2WZ8NS
 https://apps.microsoft.com/detail/9NLP1K2WZ8NS
-The Store link becomes available after Microsoft's certification and release.
-This source publication does not indicate Microsoft has approved the app.
+The original version is live on Microsoft Store as Local Search Studio.
+The FolderHunt name appears after the version 1.0.1 update is approved and
+published. This repository's current branding is ahead of that Store update.
 
 CREDITS AND LICENSES
 Desktop additions: Copyright 2026 Adiityaaa7, Apache License 2.0.
 XERJ: Copyright 2026 The XERJ Authors, Apache License 2.0.
 This product includes software developed by the XERJ project (https://xerj.org).
-Local Search Studio is not affiliated with or endorsed by the XERJ project.
+FolderHunt is not affiliated with or endorsed by the XERJ project.
 See LICENSE, NOTICE and desktop/notices/ for complete bundled credits,
 third-party notices, .NET terms and unmodified MPL component source archives.
 The upstream tree-sitter-groovy 0.1.2 licensing-file limitation is documented
